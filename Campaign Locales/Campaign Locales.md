@@ -1,4 +1,5 @@
-| Controls for multiple components|Locales|Outcomes|Example uses|Campaigns|
+|CONTROLS FOR MULTIPLE COMPONENTS|LOCALES|OUTCOMES|EXAMPLE USES|CAMPAIGNS|
+|:------------|:------------|:--------------|:--------|
 |Formatting |render_as:'radiobutton'|Answer options display as radio buttons||Contact Preferences: Plan International; Custom 4:  WWF Austria |
 ||render_as:'checkbox'|Answer options display as check boxes||Custom 2: UNICEF Together, Custom 1: Unicef Together; Custom 4: Save the Children (Urban Leaf)|
 ||render_as:'dropdown'|Answer options display in a drop box||Child Profile Number: World Vision UK; Custom 4: Save the Children USA|
