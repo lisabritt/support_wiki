@@ -7,10 +7,10 @@
 |Formatting |render_as:'datetime'|Displays a date drop box in the format of the Date of Birth question||Custom 4: WWF Together|
 |Formatting |label:'big'|The text is displayed across the whole screen and not in the format / alignment of the questions. This is useful for long lines of text.||Checkpoint: World Vision Aust; Custom 1: UNICEF|
 |Formatting |render_as:'freetext',format:'^[0-9]{7}$'|Render as freetext, accept digits between 0-9 with a 7 character limit i.e. a 7 digit passport number|World Vision Australia Custom 5 for passport number||
-|Formatting |{component_name}_restricts:'personalidentificationnumber',interestedin_trigger:'Resident'|Restrict components based on the response to a question in another component|interestedin_restricts:'childprofilenumber|childname',interestedin_trigger:'Yes'|Neet Feet World Vision Support|
 |Formatting |display:'block'|….. To be confirmed …..|||
+|Restrict components |{component_name}_restricts:'personalidentificationnumber',interestedin_trigger:'Resident'|Restrict components based on the response to a question in another component|interestedin_restricts:'childprofilenumber|childname',interestedin_trigger:'Yes'|Neet Feet World Vision Support|
 ||||||
 |Mandatory/Optional rules|required:false|Question is NOT mandatory|||
 |Mandatory/Optional rules|required:true|Question IS mandatory|||
-|Mandatory/Optional rules|required_if_{componentname}:'x'|Question is mandatory only if a certain response is given to another question i.e. required_if_interestedin:'Non-resident'|required_if_interestedin:'No',restricts:'childregion|childgender|custom_1'|World Vision (Neet Feet)|
+|Mandatory/Optional rules|required_if_{componentname}:'x'|Question is mandatory only if a certain response is given to another question i.e. required_if_interestedin:'Non-resident'|required_if_interestedin:'No',restricts:"childregion|childgender|custom_1"|World Vision (Neet Feet)|
 |Mandatory/Optional rules|required_by_regular_giving:'child_sponsorship'|….. To be confirmed …..||World Vision Australia|
