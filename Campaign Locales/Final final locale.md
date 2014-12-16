@@ -1,5 +1,5 @@
 | COMPONENT | LOCALES | OUTCOMES | EXAMPLE USES | CAMPAIGNS |
-|:-------------|:------|:--------------------|:----------|------------|
+|:-------------|:--|:--------------------|:----------|------------|
 |Account Name|country:'x'|….. To be confirmed …..||Account number', 'Account name', 'BSB': Greenpeace Denmark (DL Marketing)|
 |Account Number|generate_bic_iban:true|….. To be confirmed …..|||
 |   |country:'x'|….. To be confirmed …..|||
