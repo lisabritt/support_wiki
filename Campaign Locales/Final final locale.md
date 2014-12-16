@@ -34,8 +34,8 @@
 |Currency Type|No locales as yet||||
 |Custom Components 1-5|See: Controls for multiple components.md||||
 |Date of birth|hide_date_and_month:true|Shows only the year of birth in Date of Birth|required_age:25, required_age_is_mandatory:true, hide_date_and_month:true|World Vision UK Support|
-|   |hide_date:true|Shows only the month and year of birth in Date of Birth|required_age:25, required_age_is_mandatory:true, hide_date_and_month:true|World Vision UK Support|
-|   |required_age:x|The required minimum age is set to the value you replace x with (it can be set to 0)|required_age:25, required_age_is_mandatory:true, hide_date_and_month:true|World Vision UK Support|
+|   |hide_date:true|Shows only the month and year of birth in Date of Birth||World Vision UK Support|
+|   |required_age:x|The required minimum age is set to the value you replace x with (it can be set to 0)|required_age:0|World Vision UK Support|
 |Debit Communications|No locales as yet||||
 |Debit Failed Validations|No locales as yet||||
 |Debit Tax|No locales as yet||label:'big'||
