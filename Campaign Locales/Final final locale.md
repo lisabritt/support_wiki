@@ -53,7 +53,7 @@
 |Home Phone|length:'x'|Enforces a character limit of 'x' characters|length:'10',required:false||
 |ID Type Sighted|No locales as yet||||
 |Income|No locales as yet||||
-|Interested In|interestedin_restricts:'{component_name}|{component_name}|{component_name}|{component_name},interestedin_trigger:'{answer trigger to restrict the other components}'|Based on the response to the Interested In component, other components are hidden or displayed|interestedin_restricts:'childprofilenumber\|childname\|regulargiving\|transactiontype\|paymentdays\|paymentmonth',interestedin_trigger:'Yes'|World Vision Australia|
+|Interested In|interestedin_restricts:'{component name}|{component name}|{component name}|{component name},interestedin_trigger:'{answer trigger to restrict the other components}'|Based on the response to the Interested In component, other components are hidden or displayed|interestedin_restricts:'childprofilenumber\|childname\|regulargiving\|transactiontype\|paymentdays\|paymentmonth',interestedin_trigger:'Yes'|World Vision Australia|
 |Interested In Volunteering|No locales as yet||||
 |Last Name|No locales as yet||||
 |Location|No locales as yet||||
