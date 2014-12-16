@@ -12,5 +12,5 @@
 ||||||
 |Mandatory/Optional rules|required:false|Question is NOT mandatory|||
 |Mandatory/Optional rules|required:true|Question IS mandatory|||
-|Mandatory/Optional rules|required_if_{componentname}:'x'|Question is mandatory only if a certain response is given to another question i.e. required_if_interestedin:'Non-resident'|required_if_interestedin:'No',restricts:"childregion|childgender|custom_1"|World Vision (Neet Feet)|
+|Mandatory/Optional rules|required_if_{componentname}:'x'|Question is mandatory only if a certain response is given to another question i.e. required_if_interestedin:'Non-resident'|required_if_interestedin:'No',restricts:"childregion\|childgender\|custom_1"|World Vision (Neet Feet)|
 |Mandatory/Optional rules|required_by_regular_giving:'child_sponsorship'|….. To be confirmed …..||World Vision Australia|
