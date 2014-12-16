@@ -41,7 +41,7 @@
 |Debit Tax|No locales as yet||label:'big'||
 |Direct Debit IBAN|No locales as yet||display:'block'||
 |Direct Debit SWIFT|No locales as yet||display:'block', required:false||
-|Direct debit type|generate_bic_iban:true|Adds the BIC/IBAN components to the form|display:'block',generate_bic_iban:true|Account number: Barnadoes Ireland|
+|Direct debit type|generate_bic_iban:true|Adds the BIC/IBAN components to the form|display:'block',generate_bic_iban:true|Dogs Trust 2015|
 |Email|No locales as yet||required:false||
 |Expiry Date|minimum_months:x|Logic to control the number of months from the current date that the credit card expiry date must have before it is accepted. The minimum time is the value you replace x with|minimum_months:2' creates logic to only accept credit cards that expire after 2 months from the current date||
 |Financial Institution|No locales as yet||display:'block'||
