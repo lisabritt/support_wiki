@@ -60,7 +60,7 @@
 |Location Type|No locales as yet||||
 |Mobile Phone|length:'x'|Enforces a character limit of 'x' characters|length:'10',required:false|Greenpeace Canada English|
 |   |prefixes:''|….. To be confirmed …..||Greenpeace Mexico|
-|Monthly Amount|currency:'x'|When you replace 'x' with the currency symbol for your currency ($, £ etc), it will display that symbol on the signature screen| currency:'$' will display $ on the screen. Other currencies that can be used: 'Php', 'Kr', 'Rp', '€', ''|Monthly Amount: Greenpeace Denmark (ML Marketing), Save the Children Philippines (Equality Marketing)|
+|Monthly Amount|currency:'x'|When you replace 'x' with the currency symbol for your currency ($, £ etc), it will display that symbol on the signature screen| currency:'$' will display $ on the screen. Other currencies that have been used: 'Php', 'Kr', 'Rp', '€', ''|Monthly Amount: Greenpeace Denmark (ML Marketing), Save the Children Philippines (Equality Marketing)|
 |   |free_amount:false|Removes the free text box from the screen along with any associated text |label:'big',free_amount:false|Children with Cancer Support|
 |Name on Card|No locales as yet||display:'block'||
 |Payment Days|use_campaign_csv_values:false|Displays the Payment Days as a drop list from 1st - 28th|use_campaign_csv_values:false,required:false|Payment days - World Vision UK|
