@@ -63,7 +63,7 @@
 |Monthly Amount|currency:'x'|When you replace 'x' with the currency symbol for your currency ($, £ etc), it will display that symbol on the signature screen| currency:'$' will display $ on the screen. Other currencies that have been used: 'Php', 'Kr', 'Rp', '€', ''|Monthly Amount: Greenpeace Denmark (ML Marketing), Save the Children Philippines (Equality Marketing)|
 |   |free_amount:false|Removes the free text box from the screen along with any associated text |label:'big',free_amount:false|Children with Cancer Support|
 |Name on Card|No locales as yet||display:'block'||
-|Payment Days|use_campaign_csv_values:false|Displays the Payment Days as a drop list from 1st - 28th|use_campaign_csv_values:false,required:false|Payment days - World Vision UK|
+|Payment Days|use_campaign_csv_values:false|Displays the Payment Day are represented as a drop list of dates in the month, from 1st - 28th|use_campaign_csv_values:false,required:false|Payment days - World Vision UK|
 |   |ordinalize:false|Displays the Payment Days from the campaign setup as numbers only||UNICEF Austria|
 |   |ordinalize:true|Displays the Payment Days from the campaign setup as 1st, 2nd, 3rd etc|||
 |Payment Month|max_days_for_payment: x|When you replace x with the maximum days of payment, it will display that number of days in months i.e. max_days_for_payment: 60 will display the next two months from the current date|max_days_for_payment: 60,required:true|Oxfam IE Support|
