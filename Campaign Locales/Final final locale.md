@@ -1,12 +1,9 @@
 | COMPONENT | LOCALES | OUTCOMES | EXAMPLE USES | CAMPAIGNS |
 |:-------------|:------|:----------|:----------|------------|
 |Account Name|country:'x'|….. To be confirmed …..||Account number', 'Account name', 'BSB': Greenpeace Denmark (DL Marketing)|
-
 |Account Number|generate_bic_iban:true|….. To be confirmed …..|||
 |   |country:'x'|….. To be confirmed …..|||
-
 |Account Type|No locales as yet||||
-
 |Address  (and Secondary & Tertiary Addresses)|po_box:false|Hides PO Box tick box in address component||Save the Children (Urban Leaf)|
 |   |po_box:true|Displays PO Box tick box in address component / hides the Street field||Save the Children (Urban Leaf)|
 |   |international:true|Adds a drop list of countries to the address block on the form. The country must be selected first by the fundraiser and then the relevant address validation will be applied to the address fields. ||SLSA (GIG)|
@@ -17,43 +14,25 @@
 |   |postcode_length:8|Untested  ….. Sets the character limit for the postcode to 8||World Animal Protection (Venue Fundraising)|
 |   |address_lines_mandatory:false|Adds a 'Street' tick box to the address component for when there is no street name||World Animal Protection (Venue Fundraising)|
 |   |international_restricted_to:''|….. To be confirmed …..||World Animal Protection (Venue Fundraising)|
-
 |Amount|No locales as yet||||
-
 |BSB|country:'x'|….. To be confirmed …..|display:'block',country:'DK'|Greenpeace Denmark|
-
 |Card Number|No locales as yet||display:'block'||
-
 |Checkpoint|No locales as yet||label:'big'||
-
 |Child Gender|No locales as yet||required:false||
-
 |Child Name|No locales as yet||required:false||
-
 |Child Name & Gender|No locales as yet||||
-
 |Child Profile Number|validate_child:true|….. To be confirmed …..|render_as:'dropdown',required:false|Children with Cancer UK (P2P)|
-
 |Child Region|No locales as yet||required:false|Children with Cancer UK (P2P)|
-
 |Child Sponsorship|validate_child:false|….. To be confirmed …..||World Vision Australia|
 |   |validate_child:true|….. To be confirmed …..||World Vision Australia|
 ||required_by_regular_giving:'child_sponsorship|….. To be confirmed …..||World Vision Australia|
-
 |Consumer Price Index|No locales as yet||||
-
 |Contact block|validation_workflow:'Phone_home_phone or Phone_mobile_phone',validation_workflow_err_msg:'CONTACT_BLOCK_ONE_PHONE'|If the Preferred Phone is home phone, then home phone is mandatory and mobile is optional. If Preferred Phone is mobile then mobile is mandatory and home phone is optional.||ActionAid (another)|
-
 |Contact Preferences|No locales as yet||required:false,label:'big',render_as:'radiobutton'||
-
 |Credit card failed validations|No locales as yet||display:'block'||
-
 |Credit Card Type|No locales as yet||display:'block'||
-
 |Currency Type|No locales as yet||||
-
 |Custom Components 1-5|See: Formatting for components||||
-
 |Date of birth|hide_date_and_month:true|Shows only the year of birth in Date of Birth|required_age:25, required_age_is_mandatory:true, hide_date_and_month:true|World Vision UK Support|
 |   |hide_date:true|Shows only the month and year of birth in Date of Birth|required_age:25, required_age_is_mandatory:true, hide_date_and_month:true|World Vision UK Support|
 |   |required_age:x|The required minimum age is set to the value you replace x with (it can be set to 0)|required_age:25, required_age_is_mandatory:true, hide_date_and_month:true|World Vision UK Support|
