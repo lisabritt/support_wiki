@@ -48,7 +48,7 @@
 |First Name|No locales as yet||||
 |Gender|No locales as yet||required:false||
 |Gift Aid|ntp_option:true|….. To be confirmed …..|required:true,label:'big', ntp_option:true|British Red Cross|
-|Gifts|data_set:'WVA Gifts XMas'|Attaches a Campaign Data Set as the answer option for the Gifts component|Uses the Campaign Data Set 'WVA Gifts XMas' as a drop list||
+|Gifts|data_set:'{data set name}'|Attaches a Campaign Data Set as the answer option for the Gifts component|Uses the Campaign Data Set 'WVA Gifts XMas' as a drop list||
 |Have Heard Of|No locales as yet||||
 |Home Phone|length:'x'|Enforces a character limit of 'x' characters|length:'10',required:false||
 |ID Type Sighted|No locales as yet||||
