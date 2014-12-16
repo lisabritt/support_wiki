@@ -8,7 +8,7 @@
 |   |po_box:true|Displays PO Box tick box in address component / hides the Street field||Save the Children (Urban Leaf)|
 |   |international:true|Adds a drop list of countries to the address block on the form. The country must be selected first by the fundraiser and then the relevant address validation will be applied to the address fields. ||SLSA (GIG)|
 |   |enable_lookup:false|….. To be confirmed …..|Used with 'international:true' constraint. |Amnesty International Ireland|
-|   |country:'{country_abbreviation}',language:'{language_abbreviation}',|….. To be confirmed …..|country:'GB',language:'ENG',enable_lookup:true,house_no_mandatory:true,postcode_length:8,international:false, address_lines_mandatory:true,po_box:false,international_restricted_to:''|World Animal Protection (Venue Fundraising)|
+|   |country:'{country_abbreviation}',language:'{language_abbreviation}'|….. To be confirmed …..|country:'GB',language:'ENG',enable_lookup:true,house_no_mandatory:true,postcode_length:8,international:false, address_lines_mandatory:true,po_box:false,international_restricted_to:''|World Animal Protection (Venue Fundraising)|
 |   |house_no_mandatory:true|Sets 'House, Bldg, or PO Box' as mandatory||World Animal Protection (Venue Fundraising)|
 |   |house_no_mandatory:false|Sets 'House, Bldg, or PO Box' as optional|||
 |   |postcode_length:8|Untested  ….. Sets the character limit for the postcode to 8||World Animal Protection (Venue Fundraising)|
